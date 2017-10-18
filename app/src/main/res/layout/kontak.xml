@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+
+    <TextView android:id="@+id/nama_label"
+        android:text="Dhihan ULaalala"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dip"
+        android:textStyle="bold"
+        android:paddingTop="10dip"/>
+
+    <TextView android:id="@+id/organisasi_label"
+        android:text="TheJack.Corp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#acacac"/>
+
+    <TextView android:id="@+id/telepon_label"
+        android:text="085765624413"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"/>
+
+    <TextView android:id="@+id/alamat_label"
+        android:text="Oerum Soka Asri Permai Q-11"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dip"
+        android:paddingBottom="10dip"
+        android:textStyle="bold"/>
+
+
+</LinearLayout>
+
